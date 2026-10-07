@@ -1,0 +1,13 @@
+{
+  "chainId": 1,
+  "factory": {
+    "address": "0xe1906bBFf0c6AE8139b84c713CA60306596FD80f",
+    "transaction": "0x566f2887717c5ebaaa089c56fcd02a92ed5f225dafd78d9895e979eb89afdec8",
+    "block": 26140083
+  },
+  "implementation": {
+    "address": "0xe821e8E3DE2bA2691437bE5EB69AF0Cd14f3afB9",
+    "transaction": "0x2664450554efd882f98f8a767a488b0a15c482db06f4df8b8e36c39d8782a0f4",
+    "block": 26140082
+  }
+}

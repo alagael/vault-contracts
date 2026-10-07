@@ -1,0 +1,10 @@
+node_modules/
+out/
+cache/
+coverage/
+*.tgz
+*.tar.gz
+.env
+.env.*
+*.pem
+*.key

@@ -1,0 +1,57 @@
+{
+  "name": "@alagael/vault-contracts",
+  "version": "0.1.0",
+  "description": "Permissionless per-vault Ethereum inheritance contracts, based on an immutable factory and a Safe-compatible dead man's switch.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Alagael contributors",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.17.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alagael/vault-contracts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alagael/vault-contracts/issues"
+  },
+  "homepage": "https://github.com/alagael/vault-contracts#readme",
+  "files": [
+    "dist",
+    "src",
+    "vendor",
+    "abi",
+    "deployments",
+    "examples",
+    "assets",
+    "build.mjs",
+    "scripts",
+    "test",
+    "lib",
+    "foundry.toml",
+    "pnpm-lock.yaml",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "README.md",
+    "SECURITY.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "RELEASING.md",
+    "CODE_OF_CONDUCT.md"
+  ],
+  "scripts": {
+    "build": "forge build && node scripts/export-abi.mjs",
+    "test": "forge test",
+    "prepack": "pnpm run build"
+  },
+  "keywords": [
+    "alagael",
+    "ethereum",
+    "privacy",
+    "inheritance"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
