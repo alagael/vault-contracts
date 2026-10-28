@@ -17,7 +17,7 @@ jobs:
           node-version: '22'
       - name: Install pinned package manager
         run: npm install --global pnpm@10.17.1
-      - uses: foundry-rs/foundry-toolchain@908c540300062bd5a7e473851cdb4282204cee09
+      - uses: foundry-rs/foundry-toolchain@dba66c27052e63476d886f22216e119ba7e615bf
         with:
           version: v1.1.0
       - run: pnpm install --frozen-lockfile
